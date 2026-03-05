@@ -1,0 +1,7 @@
+torch
+diffusers
+transformers
+accelerate
+safetensors
+gradio==4.31.0
+edge-tts

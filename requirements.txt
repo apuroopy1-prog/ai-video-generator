@@ -1,0 +1,26 @@
+# Core ML
+torch>=2.0.0
+torchvision
+torchaudio
+
+# Diffusion models
+diffusers>=0.25.0
+transformers>=4.35.0
+accelerate>=0.25.0
+safetensors
+
+# Audio
+bark
+scipy
+edge-tts  # Fallback TTS (no GPU needed)
+
+# Video processing
+imageio[ffmpeg]
+moviepy
+
+# Web UI
+gradio>=4.0.0
+
+# Utilities
+numpy
+Pillow
